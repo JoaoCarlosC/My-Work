@@ -1,5 +1,6 @@
 package guitheodoro.gmail.com.iwork_project;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckedTextView;
@@ -14,7 +15,7 @@ public class My_Work_Settings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my__work__settings);
 
-        Theme();
+        //Theme();
     }
 
     public void Theme(){
@@ -23,6 +24,7 @@ public class My_Work_Settings extends AppCompatActivity {
         theme.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
-            });
+            }
+        });
     }
 }
